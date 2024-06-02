@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>New</title>
+  <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    .header,
+    .nav-menu,
+    .footer {
+      color: green;
+      border: 2px solid black;
+      max-width: 100%;
+      height: 80px;
+      text-align: center;
+      line-height: 80px;
+      margin: 15px;
+    }
+    .main-content {
+      color: green;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      line-height: 500px;
+    }
+    .left-content,
+    .center-content,
+    .right-content {
+    border: 2px solid black;
+    text-align: center;
+    margin: 15px;
+    }
+    .left-content,
+    .right-content {
+      width: 20%;
+    }
+    .center-content {
+      width: 60%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Header</h1>
+  </div>
+  <div class="nav-menu">
+    <h1>Navigation Menu</h1>
+  </div>
+  <div class="main-content">
+    <div class="left-content">
+      <h1>Content</h1>
+    </div>
+    <div class="center-content">
+      <h1>Main Content</h1>
+    </div>
+    <div class="right-content">
+      <h1>Content</h1>
+    </div>
+  </div>
+  <div class="footer">
+    <h1>Footer</h1>
+  </div>
+</body>
+</html>
